@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyContactList</string>
+    <string name="imageButtonList">Button to display a list of contacts</string>
+    <string name="imageButtonMap">Button to display a map</string>
+    <string name="imageButtonSettings">Button to open settings</string>
+    <string name="toggleButtonEdit">Off</string>
+    <string name="buttonSave">Save</string>
+    <string name="editName">Enter Name</string>
+    <string name="textContact">Contact:</string>
+    <string name="textAddress">Address:</string>
+    <string name="enter_street_address">Enter Street Address</string>
+    <string name="textCellPhone">Cell Phone:</string>
+    <string name="textHomePhone">Home Phone:</string>
+    <string name="birthday_cancel">Cancel</string>
+    <string name="birthday_save">Save</string>
+</resources>
