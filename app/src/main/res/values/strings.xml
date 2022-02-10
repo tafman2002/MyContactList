@@ -13,4 +13,10 @@
     <string name="textHomePhone">Home Phone:</string>
     <string name="birthday_cancel">Cancel</string>
     <string name="birthday_save">Save</string>
+    <string name="email_address_text">E-mail Address:</string>
+    <string name="text_birthday">Birthday:</string>
+    <string name="default_birthday">01/01/1970</string>
+    <string name="text_change">Change</string>
+    <string name="state_hint">State</string>
+    <string name="city_hint">City</string>
 </resources>

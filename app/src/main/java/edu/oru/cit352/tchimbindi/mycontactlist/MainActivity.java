@@ -6,7 +6,6 @@ import androidx.fragment.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ScrollView;
@@ -34,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         ibList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Initializes an intent to the ContactListActivity page which will start once the user clicks on the button
                 Intent intent = new Intent(MainActivity.this, ContactListActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         ibMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Initializes an intent to the ContactMapActivity page which will start once the user clicks on the button
                 Intent intent = new Intent(MainActivity.this, ContactMapActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         ibSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Initializes an intent to the ContactSettingsActivity page which will start once the user clicks on the button
                 Intent intent = new Intent(MainActivity.this, ContactSettingsActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
@@ -99,8 +101,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         if (enabled) {
             editName.requestFocus();
-        }
-        else {
+        } else {
             ScrollView s = (ScrollView) findViewById(R.id.scrollViewContact);
             s.fullScroll(ScrollView.FOCUS_UP);
             s.clearFocus();
@@ -119,6 +120,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         changeDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Starts the Calendar on
                 FragmentManager fm = getSupportFragmentManager();
                 DatePickerDialog datePickerDialog = new DatePickerDialog();
                 datePickerDialog.show(fm, "DatePick");
