@@ -9,7 +9,10 @@
     <color name="grey">#808080</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="normal_grey">#bbb</color>
-
+    <color name="system_red">#ff0000</color>
+    <color name="system_transparent">#ffffff</color>
+    <color name="system_blue">#0000ff</color>
+    <color name="toolbar_background">#FFBB86FC</color>
     <!-- App Design-->
     <color name="navbar_background">#1a1a48</color>
     <color name="dialog_button_color">#FF03DAC5</color>
